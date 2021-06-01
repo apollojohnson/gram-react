@@ -11,23 +11,6 @@ export default class Register extends Component {
         }
     }
 
-    // createUser = (e) => {
-    //     e.preventDefault();
-    //     let userName = e.target.username.value;
-    //     let email = e.target.email.value;
-    //     let password = e.target.password.value;
-    //     let confirmPassword = e.target.confirmPassword.value;
-    //     fetch('', {
-    //         method : 'POST',
-    //         headers : {
-    //             'Content-Type': 'application/json',
-    //             'Accept' : '*/*',
-    //             'Authorization' : 'Bearer' +
-    //         }
-            
-    //     })
-    // }
-
     render() {
         return (
             <div>

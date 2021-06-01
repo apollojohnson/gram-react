@@ -19,21 +19,21 @@ export default class Navbar extends Component {
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Posts</Link>
+          <Link className="nav-link active" aria-current="page" to="/posts">Posts</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/register">Register</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Login</Link>
+          <Link className="nav-link active" aria-current="page" to="/login">Login</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/">Logout</Link>
+          <Link className="nav-link" to="/logout">Logout</Link>
         </li>
         
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link disabled" to="/" tabindex="-1" aria-disabled="true">Disabled</Link>
-        </li>
+        </li> */}
       </ul>
       <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
